@@ -1,0 +1,16 @@
+[{
+    "id": 0,
+    "label": "Menu"
+}, {
+    "id": 2,
+    "parentId": 0,
+    "label": "Home",
+    "url": "/",
+    "customClasses": "current",
+    "image": ""
+}, {
+    "id": 3,
+    "parentId": 0,
+    "label": "Contact Us",
+    "url": "/contact"
+}]

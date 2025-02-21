@@ -1,0 +1,99 @@
+@import (reference) "definitions";
+
+.page-main-menu {
+	.main-menu-block {
+		.main-menu {
+			list-style: none;
+			
+			a {
+				text-decoration: none;
+				color: inherit;
+				
+				h3 {
+					margin-bottom: 0;
+				}
+				p {
+					margin-top: 0;
+				}
+
+			}
+		}
+	}
+	
+}
+
+.page-wrapper {
+	header {
+		position: relative;
+	}
+}
+
+.app-header-menu {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+	margin-bottom: 20px;
+	
+
+	.menu {
+		margin: 0;
+		padding: 0;
+		text-align: right;
+		li {
+			display: inline-block;
+			padding-left: 20px;
+		}
+		
+		a {
+			color: black;
+			text-decoration: none;
+			font-weight: 600;
+
+			
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+.app-footer {
+	padding-top: 30px;
+	padding-bottom: 10px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+	margin-top: 60px;
+	
+	text-align: center;
+	
+	.eibuilding-picture {
+		img {
+			width: 200px;
+		}
+	}
+
+}
+
+.app-frame {
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto auto 1fr auto;
+}
+
+.menu-editor {
+	height: 750px;
+}
+
+.webhandle-page-editor-file-browser {
+	.view-controls {
+		.left {
+			display: grid;
+			grid-template-columns: 1fr auto;
+			column-gap: 20px;
+		}
+	}
+	@media (min-width: @container-width) {
+		margin-left: ~"calc(-50vw + " @container-width / 2  ~" + 10px)";
+		margin-right: ~"calc(-50vw + " @container-width / 2 ~" + 10px)";
+
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"name": "@dankolz/pic-with-double-label",
+	"version": "1.0.0",
+	"main": "server-lib/integrate.mjs",
+	"scripts": {
+		"test": "node_modules/mocha/bin/mocha",
+		"less-build": "npx lessc --source-map --source-map-include-source less/pages.less public/css/pages.css | npx lessc --source-map --source-map-include-source less/editor.less public/css/editor.css; npx lessc --source-map --source-map-include-source less/app.less public/css/app.css",
+		"less-compress": "uglifycss public/css/pages.css > public/css/pages.min.css; uglifycss public/css/editor.css > public/css/editor.min.css; uglifycss public/css/app.css > public/css/app.min.css",
+		"client-js-build": "npx webpack --config js.webpack.js",
+		"dev-client-js-watch": "npx webpack --watch --config js.webpack.js",
+		"dev-less-watch": "onchange 'less/**/*.less' -- npm run less-build",
+		"dev-server-js-watch": "onchange 'server-js/**/*.js' -- pm2 restart $npm_package_name-web",
+		"bg": "parallelshell 'npm run dev-less-watch' 'npm run dev-client-js-watch'",
+		"pm2-bg": "parallelshell 'npm run dev-less-watch' 'npm run dev-client-js-watch' 'npm run dev-server-js-watch'",
+		"start": "node ./web-server.js",
+		"debug": "node --inspect --inspect-brk ./web-server.js",
+		"testDebug": "node --inspect-brk node_modules/mocha/bin/mocha"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+	},
+	"devDependencies": {
+		"@dankolz/ei-css-grid": "^1.0.0",
+		"@dankolz/ei-people-groups-1": "^1.0.2",
+		"@dankolz/page-prerun-data-loader": "^1.0.0",
+		"@dankolz/picture-ckeditor-plugin": "^1.0.6",
+		"@dankolz/remote-client-logger": "^1.0.0",
+		"@dankolz/social-head-attributes": "^1.0.0",
+		"@dankolz/sponsors": "^1.0.1",
+		"@dankolz/webhandle-jobs": "^1.0.1",
+		"@dankolz/webhandle-news": "^1.0.3",
+		"@dankolz/webp-detection": "^1.0.9",
+		"@webhandle/ckeditor-multi-widget-panel": "^1.0.0",
+		"@webhandle/event-notification-panel": "^1.0.0",
+		"dreck": "^1.0.20",
+		"ei-form-styles-1": "^1.0.0",
+		"ei-grid-1": "^1.0.4",
+		"ei-pic-browser": "^1.0.15",
+		"ei-slideshow-1": "^1.0.1",
+		"express": "^4.17.1",
+		"file-sink": "^1.0.13",
+		"filter-log": "^1.0.10",
+		"input-value-injector": "^1.0.12",
+		"jquery": "^3.6.0",
+		"moment": "^2.24.0",
+		"shiner": "^1.0.7",
+		"swipe-listener": "^1.3.0",
+		"webhandle": "^1.0.32",
+		"webhandle-calendar": "^1.0.13",
+		"webhandle-emailer": "^1.0.15",
+		"webhandle-indexer": "^1.0.2",
+		"webhandle-menus-1": "^1.0.4",
+		"webhandle-page-editor": "^1.0.44",
+		"webhandle-page-server": "^1.0.12",
+		"webhandle-redirector": "^1.0.0",
+		"webhandle-site-setup": "^1.0.55",
+		"webhandle-users": "^1.0.7"
+		,"chai": "^4.3.4",
+		"jsdoc": "^3.6.11",
+		"less": "^3.13.1",
+		"mocha": "^9.1.3",
+		"node-polyfill-webpack-plugin": "^3.0.0",
+		"onchange": "^3.2.1",
+		"parallelshell": "3.0.1",
+		"raw-loader": "^4.0.2",
+		"webpack-cli": "^5.1.4"
+	},
+	"browserify": {
+		"transform": [
+			"tripartite/browserify-transform"
+		]
+	},
+	"files": [
+		"server-lib",
+		"public/ckeditor",
+		"README.md"
+	]
+}

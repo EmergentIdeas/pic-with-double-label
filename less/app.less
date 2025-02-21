@@ -1,0 +1,23 @@
+// @import (inline) "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.app-page {
+	@import "../node_modules/ei-form-styles-1/less/ei-form-styles-1";
+	@import (less) "../node_modules/ei-grid-1/less/grid";
+	@import "../node_modules/@dankolz/webhandle-jobs/less/jobs";
+	@import "../node_modules/webhandle-calendar/less/webhandle-calendar/events-app";
+
+	@import (less) "../node_modules/ei-slideshow-1/less/slideshow";
+
+	.slide-tile.grid, .people-tile.grid {
+		.grid {
+			#ei-grid-1.gutter-grid(10px);
+			
+		}
+	}
+}
+@import "../node_modules/@dankolz/ei-people-groups-1/less/people-groups";
+@import "../node_modules/webhandle-page-editor/less/app";
+
+@import "../node_modules/@webhandle/event-notification-panel/less/components.less";
+@import "../node_modules/@webhandle/tree-file-browser/less/components.less";
+@import "app-specific";

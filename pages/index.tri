@@ -1,0 +1,65 @@
+__::start__
+<div class="page page-landing">
+	<section class="jumbo home-banner-picture-background">
+		__::inner-header__
+		<div class="msg container-wrapper">
+			<div class="inner edit-content-inline container"><h1>
+	The Jumbo Headline
+</h1>
+
+<h2>
+	The Jumbo Subhead
+</h2>
+</div>
+		</div>
+
+	</section>
+	<div class="container-wrapper">
+		<main class="container edit-content-inline"><p>
+	Hello there.
+</p>
+
+<div class="widget-start" data-additionalclasses="" data-additionalstyles="" data-align="" data-alttext="" data-aspectratio="" data-bordercss="" data-elementid="" data-justifyimage="" data-layout="" data-link="" data-linktarget="false" data-marginbottom="" data-marginleft="" data-marginright="" data-margintop="" data-maxheight="" data-maxwidth="" data-paddingbottom="" data-paddingleft="" data-paddingright="" data-paddingtop="" data-picsource="/img/campfire-1.jpg#format=webp2x&amp;width=500&amp;height=374.5&amp;alt=campfire-1" data-scaling="" data-targetheight="" data-targetwidth="" data-usecaption="false" style="position: relative; max-width: 100%; max-height: none;">
+	<div class="pic">
+		<picture class="campfire-1-picture"> <source sizes="min(100vw, 500px)" srcset="/img/campfire-1-2x.webp 1000w, /img/campfire-1.webp 500w, /img/campfire-1-half.webp 250w, /img/campfire-1-quarter.webp 125w" type="image/webp"> <source sizes="min(100vw, 500px)" srcset="/img/campfire-1-2x.jpg 1000w, /img/campfire-1.jpg 500w, /img/campfire-1-half.jpg 250w, /img/campfire-1-quarter.jpg 125w" type="image/jpeg"> <img alt="campfire-1" height="374.5px" src="/img/campfire-1.jpg" style=" display: block; max-width: 100%; max-height: 100%; height: auto; " width="500px"> </picture>
+	</div>
+
+	<div class="msg">
+		<p>
+			&nbsp;
+		</p>
+	</div>
+</div>
+
+<div class="widget-start" data-additionalclasses="" data-additionalstyles="" data-align="" data-alttext="" data-aspectratio="" data-bordercss="" data-elementid="" data-justifyimage="right" data-layout="" data-link="" data-linktarget="false" data-marginbottom="" data-marginleft="" data-marginright="" data-margintop="" data-maxheight="" data-maxwidth="" data-paddingbottom="" data-paddingleft="" data-paddingright="" data-paddingtop="" data-picsource="/img/campfire-1.jpg#format=webp2x&amp;width=500&amp;height=374.5&amp;alt=campfire-1" data-scaling="" data-targetheight="" data-targetwidth="" data-usecaption="false" style="position: relative; max-width: 100%; max-height: none; margin-left: auto; margin-right: 0px;">
+	<div class="pic">
+		<picture class="campfire-1-picture"> <source sizes="min(100vw, 500px)" srcset="/img/campfire-1-2x.webp 1000w, /img/campfire-1.webp 500w, /img/campfire-1-half.webp 250w, /img/campfire-1-quarter.webp 125w" type="image/webp"> <source sizes="min(100vw, 500px)" srcset="/img/campfire-1-2x.jpg 1000w, /img/campfire-1.jpg 500w, /img/campfire-1-half.jpg 250w, /img/campfire-1-quarter.jpg 125w" type="image/jpeg"> <img alt="campfire-1" height="374.5px" src="/img/campfire-1.jpg" style=" display: block; max-width: 100%; max-height: 100%; height: auto; " width="500px"> </picture>
+	</div>
+
+	<div class="msg">
+		<p>
+			&nbsp;
+		</p>
+	</div>
+</div>
+
+<figure class="flex-picture" data-additionalclasses="" data-additionalstyles="" data-align="" data-alttext="" data-aspectratio="" data-bordercss="" data-justifyimage="" data-layout="" data-link="" data-linktarget="false" data-marginbottom="0" data-marginleft="0" data-marginright="0" data-margintop="0" data-maxheight="" data-maxwidth="100%" data-paddingbottom="" data-paddingleft="" data-paddingright="" data-paddingtop="" data-picsource="/img/campfire-1.jpg#format=webp2x&amp;width=500&amp;height=374.5&amp;alt=campfire-1" data-scaling="" data-targetheight="" data-targetwidth="1200px" data-usecaption="false" style="position: relative; max-width: 100%; max-height: none; width: 1200px; margin: 0px;">
+<div class="pic">
+	<picture class="campfire-1-picture"> <source sizes="min(100vw, 1200px)" srcset="/img/campfire-1-2x.webp 1000w, /img/campfire-1.webp 500w, /img/campfire-1-half.webp 250w, /img/campfire-1-quarter.webp 125w" type="image/webp"> <source sizes="min(100vw, 1200px)" srcset="/img/campfire-1-2x.jpg 1000w, /img/campfire-1.jpg 500w, /img/campfire-1-half.jpg 250w, /img/campfire-1-quarter.jpg 125w" type="image/jpeg"> <img alt="campfire-1" height="374.5px" src="/img/campfire-1.jpg" style="display: block; max-width: 100%; max-height: 100%; height: auto; position: relative; left: auto; right: auto;" width="1200px"> </picture>
+</div>
+
+<figcaption style="display: none;">
+<p>
+	&nbsp;
+</p>
+</figcaption>
+</figure>
+
+<p>
+	&nbsp;
+</p>
+</main>
+	</div>
+	__::footer__
+</div>
+__::end__

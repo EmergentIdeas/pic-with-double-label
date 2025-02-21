@@ -1,0 +1,12 @@
+__::app_pre__
+	<section class="page">
+		<h1>Special Operations</h1>
+		<br/>
+		<form method="post" action="/webhandle-page-editor/admin/update-resource-version" >
+			<p>
+				Current resource version: __webhandle.resourceVersion__
+			</p>
+			<button type="submit">Update Resource Version</button>
+		</form>
+	</section>
+__::app_post__
