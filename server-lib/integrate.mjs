@@ -6,7 +6,7 @@ let integrated = false
 export default function integrate() {
 	if(!integrated) {
 		integrated = true
-		webhandle.addStaticDir(path.join(webhandle.projectRoot, 'node_modules/pic-with-double-label/public/ckeditor/plugins'), {urlPrefix: '/ckeditor/plugins'})
+		webhandle.addStaticDir(path.join(webhandle.projectRoot, 'node_modules/@dankolz/pic-with-double-label/public/ckeditor/plugins'), {urlPrefix: '/ckeditor/plugins'})
 	}
 }
 
