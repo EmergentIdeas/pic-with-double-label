@@ -94,8 +94,6 @@
 
 			editor.widgets.add(widgetName, {
 
-				// Remove the button element if you only want it to show up in the multi-widget dialog
-				button: 'Create a widget', 
 				template: template
 				, editables: {
 					caption1: {

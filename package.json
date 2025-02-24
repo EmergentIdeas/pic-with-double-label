@@ -1,6 +1,6 @@
 {
 	"name": "@dankolz/pic-with-double-label",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "server-lib/integrate.mjs",
 	"scripts": {
 		"test": "node_modules/mocha/bin/mocha",
